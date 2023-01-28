@@ -1,0 +1,15 @@
+{
+  "name": "bookings-breezy",
+  "version": "1.0.0",
+  "description": "A BOOKING APP FOR HOTELS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss  css/style.css -w"
+  },
+  "author": "prawin kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

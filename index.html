@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOKINGS &mdash;BREEZY</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,500&family=Rubik:ital,wght@0,300;0,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./img/logo.png" alt="BOOKINGS BREEZY logo" class="logo" />
+        <form action="#" class="search">
+          <input type="text" class="search_input" placeholder="search hotels" />
+          <button class="search_button">
+            <svg class="search_icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="navigation">
+          <!--box1-->
+          <div class="navigation_iconbox">
+            <svg class="navigation_icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="navigation_notification"> 7 </span>
+          </div>
+          <!--box2-->
+          <div class="navigation_iconbox">
+            <svg class="navigation_icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="navigation_notification"> 13 </span>
+          </div>
+          <!--box3-->
+          <div class="navigation_user">
+            <img
+              src="./img/user.jpg"
+              alt="jonas user"
+              class="navigation_user_photo"
+            />
+            <span class="navigation_user_name">jonas</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="side_nav">
+          <ul class="side_nav_list">
+            <li class="side_nav_item side_nav_item_active">
+              <a href="#" class="side_nav_link">
+                <svg class="side_nav_link_icon">
+                  <use xlink:href="img/sprite.svg#icon-home2"></use>
+                </svg>
+                <span>HOTEL</span>
+              </a>
+            </li>
+            <li class="side_nav_item">
+              <a href="#" class="side_nav_link">
+                <svg class="side_nav_link_icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft"></use>
+                </svg>
+                <span>FLIGHT</span>
+              </a>
+            </li>
+            <li class="side_nav_item">
+              <a href="#" class="side_nav_link">
+                <svg class="side_nav_link_icon">
+                  <use xlink:href="img/sprite.svg#icon-shield"></use>
+                </svg>
+                <span>CAR RENTAL</span>
+              </a>
+            </li>
+            <li class="side_nav_item">
+              <a href="#" class="side_nav_link">
+                <svg class="side_nav_link_icon">
+                  <use xlink:href="img/sprite.svg#icon-globe"></use>
+                </svg>
+                <span>TOURS</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="side_nav_footer">
+            &copy; 2023 by trillo.All rights reserved
+          </div>
+        </nav>
+        <main class="hotelview">
+          <div class="gallery">
+            <figure class="gallery_item">
+              <img src="img/hotel-1.jpg" class="gallery_photo" alt="" />
+            </figure>
+            <figure class="gallery_item">
+              <img src="img/hotel-2.jpg" class="gallery_photo" alt="" />
+            </figure>
+            <figure class="gallery_item">
+              <img src="img/hotel-3.jpg" class="gallery_photo" alt="" />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview_heading">hotel sasathapuri</h1>
+            <div class="overview_stars">
+              <span> ⭐ </span>
+              <span> ⭐ </span>
+              <span> ⭐ </span>
+              <span> ⭐ </span>
+            </div>
+            <div class="overview_location">
+              <span>❗</span>
+              <a href="#" class="overview_location_btn">
+                gudalur, the nilgiris
+              </a>
+            </div>
+            <div class="overview_rating">
+              <span>8.6</span>
+              <span>435 votes</span>
+            </div>
+          </div>
+
+          <!----details -->
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
+                nisi dignissimos debitis ratione sapiente saepe. Accusantium
+                cumque, quas, ut corporis incidunt deserunt quae architecto
+                voluptate.
+              </p>
+              <p class="paragraph">
+                Accusantium cumque, quas, ut corporis incidunt deserunt quae
+                architecto voluptate delectus, inventore iure aliquid aliquam.
+              </p>
+              <ul class="list">
+                <li class="list_item">PERFECT FOR FAMILIES</li>
+                <li class="list_item">BREAKAFAST INCLUDED</li>
+                <li class="list_item">CLOSE TO MOUNTAINS</li>
+                <li class="list_item">PETS ALLOWED</li>
+                <li class="list_item">WE SPEAK ALL LANGUAGES</li>
+                <li class="list_item">FREE WIFI IN ALL ROOMS</li>
+                <li class="list_item">AIR CONDITIONING</li>
+                <li class="list_item">FREE HILL VIEW</li>
+                <li class="list_item">QUALITY FOOD</li>
+                <li class="list_item">MUCH CHEAPER</li>
+                <li class="list_item">JAPANESE VARAITES</li>
+                <li class="list_item">INDIAN VARIATIES</li>
+                <li class="list_item">SWIMMING POOL</li>
+                <li class="list_item">HEALTHY</li>
+                <li class="list_item">MEMBERSHIP CARD</li>
+                <li class="list_item">VARIETY DRINKS</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend_count">
+                  jo and 3 other friends recommend this hotels.
+                </p>
+                <div class="recommend_friends">
+                  <img
+                    class="recommend_photo"
+                    src="./img/user-3.jpg"
+                    alt="FRIENDS PHOTO"
+                  />
+                  <img
+                    class="recommend_photo"
+                    src="./img/user-4.jpg"
+                    alt="FRIENDS PHOTO"
+                  />
+                  <img
+                    class="recommend_photo"
+                    src="./img/user-5.jpg"
+                    alt="FRIENDS PHOTO"
+                  />
+                  <img
+                    class="recommend_photo"
+                    src="./img/user-1.jpg"
+                    alt="FRIENDS PHOTO"
+                  />
+                </div>
+              </div>
+            </div>
+            <figure class="user_reviews">
+              <figure class="review">
+                <blockquote class="review_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi, totam, itaque officia ex.
+                </blockquote>
+                <figcaption class="review_user">
+                  <img src="./img/user-1.jpg" alt="" class="review_photo" />
+                  <div class="review_userbox">
+                    <p class="review_name">JONAS</p>
+                    <p class="review_date">feb 23rd,2017</p>
+                  </div>
+                  <div class="review_rating">7.8</div>
+                </figcaption>
+              </figure>
+              <figure class="review">
+                <blockquote class="review_text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+                  doloremque architecto dicta animi.
+                </blockquote>
+                <figcaption class="review_user">
+                  <img src="./img/user-2.jpg" alt="" class="review_photo" />
+                  <div class="review_userbox">
+                    <p class="review_name">HANNAH BAKER</p>
+                    <p class="review_date">dec 23rd,2018</p>
+                  </div>
+                  <div class="review_rating">9.2</div>
+                </figcaption>
+              </figure>
+
+              <button class="btn_outline">show all <span>&rArr;</span></button>
+            </figure>
+          </div>
+          <div class="cta">
+            <h2 class="cta_booknow">
+              good news we have 4 free rooms for selected dates
+            </h2>
+            <button class="btn">
+              <span class="btn_visible">book now</span>
+              <span class="btn_invisible"> only 4 rooms left</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
